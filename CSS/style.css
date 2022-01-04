@@ -1,0 +1,120 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+/* Nav bar */
+.nav-link:hover{
+    border-bottom:3px solid skyblue;
+}
+
+.avtar{    
+    height:40px;
+    width:40px;
+}
+
+/* title */
+.bg-image{
+    display: flex;
+    overflow:hidden;
+    background: linear-gradient(rgba(49, 49, 49, 0.7), rgba(49, 49, 49, 0.7)),url("https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: 100% 100%;
+    height:500px;
+}
+
+
+.title-image{
+    display: flex;
+    margin-left: 280px;
+    margin-top:25px;
+    height:450px;
+}
+
+.big-heading{
+    display: flex;
+    color:white;
+    font-size: 45px;
+    margin-top: 150px;
+
+}
+
+.small-text{
+    display: flex;
+    color:white;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+/* Features */
+.features{
+    margin-top:5%;
+    text-align: center;
+}
+
+h3{
+    display: flex;
+    justify-content:center;
+    padding-top:5%;
+    font-size: 35px;
+    color:lightskyblue;
+}
+
+.pencil{
+    background-color:#4f94f3;
+    color:white;
+    padding: 35px 40px 35px 40px;
+    border-radius:50%;
+}
+
+.laptop{
+    background-color:#d94748;
+    color:white;
+    padding: 35px 40px 35px 40px;
+    border-radius:50%;
+}
+
+.basket{
+    background-color:#ebbb11;
+    color:white;
+    padding: 35px 40px 35px 40px;
+    border-radius:50%;
+}
+
+.feature > p{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color:#a8a8a8;
+    padding:0px 0px 0px 45px;
+    font-size: 25px;
+}
+
+/* Shopping cart */
+.shopping{
+    margin-top:10%;
+}
+
+.cartitem > h1{
+    display: flex;
+    justify-content: center;
+    color:#a8a8a8;
+    font-size: 50px;
+}
+
+.cartitem > h2{
+    margin-top:8%;
+    margin-bottom: 2%;
+    color:#a8a8a8;
+}
+
+.cartitem > p{
+    color:#a8a8a8;
+}
+.cartitem > img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    color:#a8a8a8;
+    padding-top:1%;
+    padding-bottom: 1%;
+}
